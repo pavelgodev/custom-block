@@ -1,0 +1,108 @@
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/item/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "Poppins";
+  src: url(../../fonts/Poppins-Black.d8b850b9.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../../fonts/Roboto-Regular.fc2b5060.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../../fonts/Roboto-Medium.7c8d04cd.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+.container {
+  position: relative;
+}
+.container .accordion__header {
+  padding: 16px 96px 16px 16px;
+  color: #285FBB;
+  font-family: "Roboto-Medium", serif;
+  font-size: 19px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.2px;
+  text-align: left;
+  line-height: 32px;
+  background-color: rgb(235, 245, 255);
+  cursor: pointer;
+}
+.container .accordion__header_divider {
+  background-color: #BAD8FB;
+  height: 2px;
+  max-width: 96%;
+  margin: 0 auto;
+}
+.container .icon-close {
+  box-sizing: border-box;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  border: 2px solid rgb(69, 142, 247);
+  border-radius: 50%;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgMTAgMTAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+aWNvbi1wbHVzPC90aXRsZT4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJUZXN0LWFzc2lnbm1lbnQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDkxLjAwMDAwMCwgLTc3OS4wMDAwMDApIiBmaWxsPSIjNDU4RUY3Ij4KICAgICAgICAgICAgPGcgaWQ9ImFjY29yZGlvbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjQ4LjAwMDAwMCwgMTMzLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9IjIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDY0LjAwMDAwMCwgNjE5LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxnIGlkPSJpY29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3NjguMDAwMDAwLCAxNi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9ImV4cGFuZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTEuMDAwMDAwLCAxMS4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik05LDYgTDYsNiBMNiw2IEw2LDkgQzYsOS41NTIyODQ3NSA1LjU1MjI4NDc1LDEwIDUsMTAgQzQuNDQ3NzE1MjUsMTAgNCw5LjU1MjI4NDc1IDQsOSBMNCw2IEw0LDYgTDEsNiBDMC40NDc3MTUyNSw2IDYuNzYzNTM3NTFlLTE3LDUuNTUyMjg0NzUgMCw1IEMtNi43NjM1Mzc1MWUtMTcsNC40NDc3MTUyNSAwLjQ0NzcxNTI1LDQgMSw0IEw0LDQgTDQsNCBMNCwxIEM0LDAuNDQ3NzE1MjUgNC40NDc3MTUyNSwxLjAxNDUzMDYzZS0xNiA1LDAgQzUuNTUyMjg0NzUsLTEuMDE0NTMwNjNlLTE2IDYsMC40NDc3MTUyNSA2LDEgTDYsNCBMNiw0IEw5LDQgQzkuNTUyMjg0NzUsNCAxMCw0LjQ0NzcxNTI1IDEwLDUgQzEwLDUuNTUyMjg0NzUgOS41NTIyODQ3NSw2IDksNiBaIiBpZD0ic29saWQiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+);
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+}
+
+.accordion__body {
+  padding: 0 48px 0 32px;
+  color: rgb(61, 82, 102);
+  font-family: "Roboto-Regular", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  line-height: 26px;
+  background-color: #fff;
+}
+
+.row {
+  display: flex;
+  background-color: #fff;
+}
+.row .col-1, .row .col-2 {
+  width: 50%;
+}
+
+.accordion__item_show .accordion__header {
+  background-color: #fff;
+  color: #0A2344;
+  border-radius: 8px 8px 0 0;
+  padding: 16px 96px 16px 32px;
+  font-size: 19px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  line-height: 32px;
+}
+.accordion__item_show .accordion__body {
+  border-radius: 0 0 8px 8px;
+}
+.accordion__item_show .icon-close {
+  transform: rotate(45deg);
+}
+.accordion__item_show .accordion__header_divider {
+  display: none;
+}
+
+.accordion__item:not(.accordion__item_show) .accordion__body {
+  display: none;
+}
+
+.wp-block-cb-item-wrapper.accordion {
+  max-width: 944px !important;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

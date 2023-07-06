@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'Poppins';
+	src: url('../../../assets/fonts/Poppins/Poppins-Black.ttf');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../../../assets/fonts/Roboto/Roboto-Regular.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../../../assets/fonts/Roboto/Roboto-Medium.ttf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+.container {
+	position: relative;
+
+	.accordion__header {
+		padding: 16px 96px 16px 16px;
+		//border: 1px solid black;
+		color: #285FBB;
+		font-family: "Roboto-Medium", serif;
+		font-size: 19px;
+		font-weight: 500;
+		font-style: normal;
+		letter-spacing: 0.2px;
+		text-align: left;
+		line-height: 32px;
+		background-color: rgba(235, 245, 255, 1);
+		cursor: pointer;
+	}
+
+	.accordion__header_divider{
+		background-color: #BAD8FB;
+		height: 2px;
+		max-width: 96%;
+		margin: 0 auto;
+	}
+
+	.icon-close {
+		box-sizing: border-box;
+		position: absolute;
+		top: 16px;
+		right: 16px;
+		cursor: pointer;
+		width: 24px;
+		height: 24px;
+		border: 2px solid rgba(69, 142, 247, 1);
+		border-radius: 50%;
+		background-image: url('../../../assets/images/icon-plus.svg');
+		background-repeat: no-repeat;
+		background-position: 5px 5px;
+	}
+}
+
+.accordion__body {
+	padding: 0 48px 0 32px;
+	color: rgba(61, 82, 102, 1);
+	font-family: "Roboto-Regular", serif;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	text-align: left;
+	line-height: 26px;
+	background-color: #fff;
+}
+
+.row{
+	display: flex;
+	background-color: #fff;
+
+	.col-1, .col-2{
+		width: 50%;
+	}
+
+
+}
+
+.accordion__item_show{
+	.accordion__header{
+		background-color: #fff;
+		color: #0A2344;
+		border-radius: 8px 8px 0 0;
+		padding: 16px 96px 16px 32px;
+		font-size: 19px;
+		font-weight: 500;
+		font-style: normal;
+		text-align: left;
+		line-height: 32px;
+	}
+
+	.accordion__body{
+		border-radius:  0 0 8px 8px;
+	}
+
+	.icon-close{
+		transform: rotate(45deg);
+	}
+
+	.accordion__header_divider{
+		display: none;
+	}
+}
+
+.accordion__item:not(.accordion__item_show) .accordion__body {
+	display: none;
+}
+
+.wp-block-cb-item-wrapper.accordion {
+	max-width: 944px !important;
+}
